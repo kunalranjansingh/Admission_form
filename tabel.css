@@ -1,0 +1,41 @@
+body{
+    text-align: center;
+    background-color: rgb(68, 66, 66);
+}
+table{
+    border: 2px solid;
+    border-collapse: collapse;
+    margin:0 10%;
+}
+td{
+    border: 1px solid;
+    font-family: cursive;
+}
+th {
+    border: 1px solid;
+    font-family:Arial, Helvetica, sans-serif;
+}
+th{
+    font-weight: bolder;
+    padding: 5px;
+    color: white;
+    background-color: rgb(3, 3, 3);
+}
+h1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+   
+}
+tr:hover{
+    background-color: rgb(250, 125, 125);
+}
+tr:nth-child(even){
+    background-color: rgb(62, 62, 65);
+    color: white;
+}
+div{
+     background-color: rgb(204, 200, 202);
+    border: 2px solid;
+    border-radius: 20px;
+    margin: 0 10%;
+    padding-bottom: 20px;
+}
